@@ -12,10 +12,10 @@
 
 name: Checkmarx SCA Scan (Push)
 on:
-  push:
-    branches:
-      - main
-      - master
+  #push:
+  #  branches:
+  #    - main
+  #    - master
     
 jobs:
   build:
