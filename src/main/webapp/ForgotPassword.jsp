@@ -1,5 +1,4 @@
-
- <%@page import="org.cysecurity.cspf.jvl.model.DBConnect"%>
+<%@page import="org.cysecurity.cspf.jvl.model.DBConnect"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Connection"%>
