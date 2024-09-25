@@ -1,0 +1,11 @@
+<!-- config.xml -->
+<configuration>
+    <database>
+        <url>jdbc:mysql://localhost:3306/mydb</url>
+        <username>admin</username>
+        <password>SuperSecretPassword123</password> <!-- Sensitive Password Exposure -->
+    </database>
+    <api>
+        <key>EXAMPLE_API_KEY_12345</key> <!-- API Key Exposure -->
+    </api>
+</configuration>
