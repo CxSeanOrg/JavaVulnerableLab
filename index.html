@@ -1,0 +1,15 @@
+<!-- index.html -->
+<html>
+<head>
+    <title>My Web App</title>
+</head>
+<body>
+    <script>
+        // Hardcoded API Key in JavaScript within an HTML file
+        const apiKey = "AIzaSyD-SensitiveApiKey-Example";
+        fetch(`https://api.example.com/data?key=${apiKey}`)
+            .then(response => response.json())
+            .then(data => console.log(data));
+    </script>
+</body>
+</html>
