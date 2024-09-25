@@ -1,0 +1,32 @@
+# configuration.yaml
+
+app:
+  name: "My Application"
+  environment: "production"
+
+database:
+  host: "prod-db-server.com"
+  port: 5432
+  username: "prod_user"
+  password: "ProdSecret123!"  # Sensitive information (password exposure)
+
+api_services:
+  payment_gateway:
+    base_url: "https://payment.example.com"
+    api_key: "sk_live_51HxEXAMPLE_KEY"  # Hardcoded API key exposure
+    timeout: 30
+
+aws:
+  region: "us-west-2"
+  access_key_id: "AKIAIOSFODNN7EXAMPLE"  # AWS Access Key exposure
+  secret_access_key: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"  # AWS Secret Key exposure
+
+smtp:
+  server: "smtp.example.com"
+  port: 587
+  username: "email_user"
+  password: "EmailPassword!"  # SMTP credentials (email password exposure)
+
+logging:
+  level: "info"
+  file: "/var/log/app.log"
